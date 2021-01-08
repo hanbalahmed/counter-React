@@ -1,6 +1,10 @@
 const Main = () => {
   const [count, setCount] = React.useState(0);
 
+  React.useEffect(() => {
+    document.title = count;
+  });
+
   return (
     <div className="counter">
       <h1 className="counter__number">{count}</h1>
