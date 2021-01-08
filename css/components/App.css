@@ -1,0 +1,15 @@
+/* this is the app component */
+.counter {
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(7, 16, 32);
+  color: aliceblue;
+}
+
+.counter__number {
+  margin-bottom: 10px;
+  font-size: 4rem;
+}

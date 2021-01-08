@@ -1,0 +1,9 @@
+@import "./imports/imports.css";
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
